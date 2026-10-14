@@ -1,2 +1,2 @@
 # CSE-Internship-Job-Application-Tracker3
-None
+Many students and graduates struggle to manage their internship and job applications because they apply to different companies using multiple websites and platforms. This makes it difficult to keep track of submitted applications, interview dates, application statuses and available job opportunities. As a result, students may miss important deadlines, forget where they have applied or lose potential employment opportunities.
