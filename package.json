@@ -1,1 +1,1 @@
-{"name":"careertrack-api","version":"1.0.0","type":"module","scripts":{"start":"node index.js","dev":"node --watch index.js"},"dependencies":{"bcryptjs":"^3.0.3","cors":"^2.8.5","dotenv":"^16.4.5","express":"^4.21.2","jsonwebtoken":"^9.0.3","pg":"^8.13.1"}}
+{"name":"careertrack-web","version":"1.0.0","private":true,"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"^15.3.0","react":"^19.0.0","react-dom":"^19.0.0","lucide-react":"^0.468.0"},"devDependencies":{"typescript":"^5.7.3","@types/react":"^19.0.0","@types/node":"^22.0.0"}}

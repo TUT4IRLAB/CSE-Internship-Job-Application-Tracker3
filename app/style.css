@@ -1,0 +1,231 @@
+
+/* ==========================================
+   CAREERTRACK LOGIN AND SIGNUP PAGE
+   ========================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Login page background */
+.auth-page {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0b1730, #193b78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login white card */
+.auth-card {
+  width: 100%;
+  max-width: 450px;
+  background: #ffffff;
+  padding: 42px;
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+/* CareerTrack logo */
+.auth-logo {
+  font-size: 26px;
+  font-weight: 800;
+  color: #17233c;
+  margin-bottom: 35px;
+}
+
+.auth-logo span {
+  color: #2563eb;
+}
+
+/* Small heading */
+.auth-kicker {
+  color: #2563eb;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+/* Main heading */
+.auth-card h1 {
+  color: #17233c;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 10px 0 12px;
+}
+
+/* Description */
+.auth-card > p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+/* Form */
+.auth-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Labels */
+.auth-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #34425c;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.auth-card input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #dce3ed;
+  border-radius: 9px;
+  background: #ffffff;
+  color: #17233c;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+/* Input focus */
+.auth-card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+/* Login and Signup button */
+.auth-submit {
+  width: 100%;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 8px;
+  transition: 0.2s;
+}
+
+.auth-submit:hover {
+  background: #1d4ed8;
+}
+
+.auth-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Switch between Login and Signup */
+.auth-switch {
+  margin-top: 25px;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.auth-switch button {
+  background: transparent;
+  border: none;
+  color: #2563eb;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 13px;
+}
+
+.auth-switch button:hover {
+  text-decoration: underline;
+}
+
+/* Error message */
+.auth-error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+/* Success message */
+.auth-success {
+  background: #dcfce7;
+  color: #15803d;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+/* Loading screen */
+.auth-loading {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  color: #17233c;
+}
+
+/* Logged-in user bar */
+.auth-userbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  background: #eaf1ff;
+  color: #17233c;
+  padding: 12px 25px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+/* Logout button */
+.auth-userbar button {
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-userbar button:hover {
+  background: #b91c1c;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 26px;
+  }
+
+  .auth-card h1 {
+    font-size: 25px;
+  }
+
+  .auth-logo {
+    font-size: 23px;
+  }
+
+  .auth-userbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
